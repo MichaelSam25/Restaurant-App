@@ -1,0 +1,35 @@
+.img {
+  height: 150px;
+  width: 150px;
+}
+.dish-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.type-img {
+  width: 25px;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+
+.quantity-controller-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.quantity-controller-icon {
+  color: #616e7c;
+  width: 16px;
+  height: 16px;
+}
